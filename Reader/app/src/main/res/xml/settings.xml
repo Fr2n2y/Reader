@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="更新">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="update"
+            android:summaryOn="开启"
+            android:summaryOff="关闭"
+            android:title="开启更新推送" />
+        <Preference
+            android:key="check_update"
+            android:summary="检查当前版本"
+            android:title="手动更新" />
+        />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="缓存">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="cache_mode"
+            android:summaryOn="默认500MB缓存"
+            android:summaryOff="手动清理"
+            android:title="自动清理"/>
+        <Preference
+            android:key="cache"
+            android:title="清除缓存"
+            android:summary="当前缓存大小:0KB"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="更多">
+        <Preference
+            android:title="作者:Fr2n2y"
+            android:key="author"
+            android:summary="点击跳转博客"
+            />
+        <Preference
+            android:key="version"
+            android:title="版本"
+            android:summary="当前版本V-1.0.0"
+            />
+        <Preference
+            android:key="declare"
+            android:title="免责声明"
+            android:summary="请点击查看"
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grop_news"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/news_military"
+            android:checked="true"
+            android:icon="@drawable/icon_military"
+            android:title="@string/military" />
+        <item
+            android:id="@+id/news_hot"
+            android:icon="@drawable/icon_hot"
+            android:title="@string/hot" />
+        <item
+            android:id="@+id/news_sports"
+            android:icon="@drawable/icon_sports"
+            android:title="@string/sports" />
+        <item
+            android:id="@+id/news_technology"
+            android:icon="@drawable/icon_technology"
+            android:title="@string/technology" />
+        <item
+            android:id="@+id/news_cars"
+            android:icon="@drawable/icon_cars"
+            android:title="@string/cars" />
+
+    </group>
+    <!--<group android:id="@+id/grop_settings">-->
+    <item
+        android:id="@+id/news_settings"
+        android:checkable="false"
+        android:checked="false"
+        android:title="设置"></item>
+    <!--</group>-->
+</menu>

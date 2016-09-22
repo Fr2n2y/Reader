@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Reader</string>
+    <string name="hot">今日热点</string>
+    <string name="sports">体育频道</string>
+    <string name="technology">科技新闻</string>
+    <string name="cars">汽车频道</string>
+    <string name="military">军事频道</string>
+</resources>
